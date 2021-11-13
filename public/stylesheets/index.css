@@ -1,0 +1,147 @@
+body{
+    height: 100vh;
+    background-color: whitesmoke;
+    font-family: 'New Tegomin', serif;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.custom-file-label{
+    overflow: hidden;
+}
+
+.col-6.auth h4{
+    color: rgb(100,100,100)
+}
+
+.map{
+    width: 100%;
+    height: 500px;
+}
+
+.showMap{
+    width: 100%;
+    height: 300px;
+}
+
+main{
+    margin-top: 48px;
+}
+.carousel-inner{
+    max-height: 450px;
+
+}
+.img-fluid{
+        max-width: 100%;
+        min-height: 300px;
+        max-height: 300px;
+}
+
+.linkNew{
+    font-size: 1.1em;
+    border: 1px solid silver;
+    color: black;
+    width: 30%;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.linkNew:hover{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(48, 48, 48);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-size: 1.5em;
+}
+.card-show, .card-reviews, label, .index-title, .back, .btn-outline-primary{
+    font-size: 1.3em;
+}
+.card-link, .btn-outline-danger, .btn-delete, .btn-submit, .btn-success, .btn-outline-primary{
+    font-weight: 700;
+}
+.rated-by{
+    font-size: 1.1rem;
+}
+.form-control{
+    font-size: 1.2rem;
+}
+label{
+    font-weight: 500;
+}
+.index-text{
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 700px){
+    .deletePhotos{
+        text-align: center;
+    }
+    .index-text{
+        padding: 0 2em;
+        text-align: center;
+        font-size: 0.96rem;
+    }
+    .h1-index{
+        font-size: 1.8em;
+    }
+    .btn-add-new{
+        margin-top: 2em;
+        font-size: 0.8rem;
+    }
+    .container{
+        margin-top: 0em;
+    }
+    .map{
+        height: 400px;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .offset-3{
+        margin:2em 2em;
+    }
+    .carousel-item{
+        margin: 0;
+        padding: 0;
+    }
+    .card-show{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .carousel-inner{
+        max-height: 450px;
+    
+    }
+    .starability-checkmark{
+        margin: 0 auto;
+    }
+    .review-h3{
+        text-align: center;
+    }
+    .linkNew{
+        font-size: 1em;
+        width: 80%;
+    }
+    .card-show, .card-reviews{
+        font-size: 1em;
+    }
+    .card-link, .btn-outline-danger{
+        font-weight: 700;
+    }
+    .img-fluid{
+        max-width: 100%;
+        min-height: 250px;
+        max-height: 270px;
+}
+}
+
+#icon, #icon1, #icon2{
+    font-size: 1rem;
+}
+
+#icon3,#icon4,#icon5,#icon6{
+    font-size: 0.8rem;
+}

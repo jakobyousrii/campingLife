@@ -1,0 +1,35 @@
+<%- layout("layouts/boilerplate") %>
+
+    <div class="row">
+        <div class="col-md-4 col-sm-12 mb-4 offset-sm-none offset-md-4">
+            <div class="card shadow">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1444210971048-6130cf0c46cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+                    alt="">
+                <h4 class="text-center card-title pt-3">
+                    Register
+                </h4>
+                <div class="card-body">
+                    <form action="/register" method="POST" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label class="form-label" for="username">Username</label>
+                            <input class="form-control" type="text" id="username" name="user[username]" autofocus
+                                required>
+                            <div class="valid-feedback">Correct!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="password">Password</label>
+                            <input class="form-control" type="password" id="password" name="password" required>
+                            <div class="valid-feedback">Correct!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-control" type="text" id="email" name="user[email]" required>
+                            <div class="valid-feedback">Correct!</div>
+                        </div>
+                        <button class="btn btn-outline-primary btn-block">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
